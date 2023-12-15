@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //对应环境变量
+    @EnvironmentObject var envModel: EnvironmentModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        BaseView(content:
+                    NavigationView{
+            
+            ScrollView{
+                VStack {
+                    Group{
+                        //ViewChinesePinYin
+                        NavigationLink(destination:
+                                        ViewChinesePinYin()) {
+                            Text("看字选拼音")
+                        }
+                    }
+                }
+            }
         }
-        .padding()
+            .navigationViewStyle(StackNavigationViewStyle())
+            .navigationBarHidden(true)  //隐藏Bar
+            .frame(width: envModel.screenWidth, height: envModel.screenHeight)
+            .onAppear {
+                envModel.isPwOk = false
+            }
+            .onDisappear{
+                envModel.isPwOk = false
+            }
+                 )
     }
 }
 

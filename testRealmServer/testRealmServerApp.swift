@@ -11,7 +11,7 @@ import SwiftUI
 struct testRealmServerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(EnvironmentModel())
         }
     }
 }
