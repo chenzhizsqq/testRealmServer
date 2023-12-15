@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct TodoListApp: App {
+struct testRealmServerApp: App {
     
     @StateObject private var realmManager = RealmManager.shared
     

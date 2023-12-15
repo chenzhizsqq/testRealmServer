@@ -6,38 +6,53 @@
 //
 
 import SwiftUI
+import RealmSwift
+
 
 struct ContentView: View {
     
-    //对应环境变量
-    @EnvironmentObject var envModel: EnvironmentModel
+    @State private var taskName: String = ""
+    @State private var priority: Priority = .medium
+    
+    @ObservedResults(Task.self) var tasks: Results<Task>
     
     var body: some View {
-        BaseView(content:
-                    NavigationView{
+        NavigationView {
             
-            ScrollView{
-                VStack {
-                    Group{
-                        //ViewChinesePinYin
-                        NavigationLink(destination:
-                                        ViewChinesePinYin()) {
-                            Text("看字选拼音")
-                        }
+            VStack() {
+                
+                TextField("Enter task", text: $taskName)
+                    .textFieldStyle(.roundedBorder)
+                Picker("Priority", selection: $priority) {
+                    ForEach(Priority.allCases, id: \.self) { priority in
+                        Text(priority.rawValue)
                     }
-                }
-            }
+                }.pickerStyle(.segmented)
+                
+                Button {
+                    // action
+                    let task = Task()
+                    task.title = taskName
+                    task.priority = priority
+                    
+                    $tasks.append(task)
+                    
+                    taskName = ""
+                    
+                } label: {
+                    Text("Save")
+                        .frame(maxWidth: .infinity)
+                }.buttonStyle(.borderedProminent)
+
+                TodoListView()
+                
+                Spacer()
+                
+                .navigationTitle("Tasks")
+                
+            }.padding()
+            
         }
-            .navigationViewStyle(StackNavigationViewStyle())
-            .navigationBarHidden(true)  //隐藏Bar
-            .frame(width: envModel.screenWidth, height: envModel.screenHeight)
-            .onAppear {
-                envModel.isPwOk = false
-            }
-            .onDisappear{
-                envModel.isPwOk = false
-            }
-                 )
     }
 }
 

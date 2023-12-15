@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3316F4462B2C2143005B271B /* testRealmServerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4452B2C2143005B271B /* testRealmServerApp.swift */; };
 		3316F4482B2C2143005B271B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4472B2C2143005B271B /* ContentView.swift */; };
 		3316F44A2B2C2145005B271B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3316F4492B2C2145005B271B /* Assets.xcassets */; };
 		3316F44D2B2C2145005B271B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3316F44C2B2C2145005B271B /* Preview Assets.xcassets */; };
@@ -16,15 +15,13 @@
 		3316F4632B2C2146005B271B /* testRealmServerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4622B2C2146005B271B /* testRealmServerUITestsLaunchTests.swift */; };
 		3316F4712B2C2327005B271B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3316F4702B2C2327005B271B /* Realm */; };
 		3316F4732B2C2327005B271B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3316F4722B2C2327005B271B /* RealmSwift */; };
-		3316F4792B2C2571005B271B /* ViewChinesePinYinSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4752B2C2571005B271B /* ViewChinesePinYinSetting.swift */; };
-		3316F47A2B2C2571005B271B /* ViewPinYinItemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4762B2C2571005B271B /* ViewPinYinItemSetting.swift */; };
-		3316F47B2B2C2571005B271B /* ViewChinesePinYin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4772B2C2571005B271B /* ViewChinesePinYin.swift */; };
-		3316F47C2B2C2571005B271B /* ChinesePinYinItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4782B2C2571005B271B /* ChinesePinYinItem.swift */; };
-		3316F47E2B2C2599005B271B /* ExString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F47D2B2C2598005B271B /* ExString.swift */; };
-		3316F4802B2C25B2005B271B /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F47F2B2C25B2005B271B /* MyUtility.swift */; };
-		3316F4822B2C25D2005B271B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4812B2C25D2005B271B /* BaseView.swift */; };
-		3316F4842B2C2611005B271B /* ViewPsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4832B2C2610005B271B /* ViewPsCalculator.swift */; };
-		3316F4862B2C262A005B271B /* EnvironmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4852B2C262A005B271B /* EnvironmentModel.swift */; };
+		3316F4AA2B2C46C6005B271B /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4972B2C46C6005B271B /* Note.swift */; };
+		3316F4AB2B2C46C6005B271B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F4982B2C46C6005B271B /* Task.swift */; };
+		3316F4AC2B2C46C6005B271B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F49A2B2C46C6005B271B /* RealmManager.swift */; };
+		3316F4AD2B2C46C6005B271B /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F49B2B2C46C6005B271B /* TodoListApp.swift */; };
+		3316F4AE2B2C46C6005B271B /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F49D2B2C46C6005B271B /* TaskCellView.swift */; };
+		3316F4AF2B2C46C6005B271B /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F49E2B2C46C6005B271B /* TodoListView.swift */; };
+		3316F4B02B2C46C6005B271B /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316F49F2B2C46C6005B271B /* NotesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		3316F4422B2C2143005B271B /* testRealmServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRealmServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3316F4452B2C2143005B271B /* testRealmServerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRealmServerApp.swift; sourceTree = "<group>"; };
 		3316F4472B2C2143005B271B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3316F4492B2C2145005B271B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3316F44C2B2C2145005B271B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,15 +51,13 @@
 		3316F45C2B2C2146005B271B /* testRealmServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRealmServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3316F4602B2C2146005B271B /* testRealmServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRealmServerUITests.swift; sourceTree = "<group>"; };
 		3316F4622B2C2146005B271B /* testRealmServerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRealmServerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3316F4752B2C2571005B271B /* ViewChinesePinYinSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewChinesePinYinSetting.swift; sourceTree = "<group>"; };
-		3316F4762B2C2571005B271B /* ViewPinYinItemSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPinYinItemSetting.swift; sourceTree = "<group>"; };
-		3316F4772B2C2571005B271B /* ViewChinesePinYin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewChinesePinYin.swift; sourceTree = "<group>"; };
-		3316F4782B2C2571005B271B /* ChinesePinYinItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChinesePinYinItem.swift; sourceTree = "<group>"; };
-		3316F47D2B2C2598005B271B /* ExString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExString.swift; sourceTree = "<group>"; };
-		3316F47F2B2C25B2005B271B /* MyUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtility.swift; sourceTree = "<group>"; };
-		3316F4812B2C25D2005B271B /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		3316F4832B2C2610005B271B /* ViewPsCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPsCalculator.swift; sourceTree = "<group>"; };
-		3316F4852B2C262A005B271B /* EnvironmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentModel.swift; sourceTree = "<group>"; };
+		3316F4972B2C46C6005B271B /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		3316F4982B2C46C6005B271B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3316F49A2B2C46C6005B271B /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		3316F49B2B2C46C6005B271B /* TodoListApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
+		3316F49D2B2C46C6005B271B /* TaskCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
+		3316F49E2B2C46C6005B271B /* TodoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		3316F49F2B2C46C6005B271B /* NotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,14 +110,11 @@
 		3316F4442B2C2143005B271B /* testRealmServer */ = {
 			isa = PBXGroup;
 			children = (
-				3316F4852B2C262A005B271B /* EnvironmentModel.swift */,
-				3316F4832B2C2610005B271B /* ViewPsCalculator.swift */,
-				3316F4812B2C25D2005B271B /* BaseView.swift */,
-				3316F47F2B2C25B2005B271B /* MyUtility.swift */,
-				3316F47D2B2C2598005B271B /* ExString.swift */,
-				3316F4742B2C2529005B271B /* ViewChinesePinYin */,
-				3316F4452B2C2143005B271B /* testRealmServerApp.swift */,
+				3316F4992B2C46C6005B271B /* Managers */,
+				3316F4962B2C46C6005B271B /* Models */,
+				3316F49C2B2C46C6005B271B /* Views */,
 				3316F4472B2C2143005B271B /* ContentView.swift */,
+				3316F49B2B2C46C6005B271B /* TodoListApp.swift */,
 				3316F4492B2C2145005B271B /* Assets.xcassets */,
 				3316F44B2B2C2145005B271B /* Preview Content */,
 			);
@@ -155,15 +146,31 @@
 			path = testRealmServerUITests;
 			sourceTree = "<group>";
 		};
-		3316F4742B2C2529005B271B /* ViewChinesePinYin */ = {
+		3316F4962B2C46C6005B271B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3316F4782B2C2571005B271B /* ChinesePinYinItem.swift */,
-				3316F4772B2C2571005B271B /* ViewChinesePinYin.swift */,
-				3316F4752B2C2571005B271B /* ViewChinesePinYinSetting.swift */,
-				3316F4762B2C2571005B271B /* ViewPinYinItemSetting.swift */,
+				3316F4972B2C46C6005B271B /* Note.swift */,
+				3316F4982B2C46C6005B271B /* Task.swift */,
 			);
-			path = ViewChinesePinYin;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3316F4992B2C46C6005B271B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3316F49A2B2C46C6005B271B /* RealmManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3316F49C2B2C46C6005B271B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3316F49D2B2C46C6005B271B /* TaskCellView.swift */,
+				3316F49E2B2C46C6005B271B /* TodoListView.swift */,
+				3316F49F2B2C46C6005B271B /* NotesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,17 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3316F4AF2B2C46C6005B271B /* TodoListView.swift in Sources */,
+				3316F4AD2B2C46C6005B271B /* TodoListApp.swift in Sources */,
+				3316F4AE2B2C46C6005B271B /* TaskCellView.swift in Sources */,
 				3316F4482B2C2143005B271B /* ContentView.swift in Sources */,
-				3316F47C2B2C2571005B271B /* ChinesePinYinItem.swift in Sources */,
-				3316F47A2B2C2571005B271B /* ViewPinYinItemSetting.swift in Sources */,
-				3316F4792B2C2571005B271B /* ViewChinesePinYinSetting.swift in Sources */,
-				3316F4802B2C25B2005B271B /* MyUtility.swift in Sources */,
-				3316F4862B2C262A005B271B /* EnvironmentModel.swift in Sources */,
-				3316F47E2B2C2599005B271B /* ExString.swift in Sources */,
-				3316F4822B2C25D2005B271B /* BaseView.swift in Sources */,
-				3316F4842B2C2611005B271B /* ViewPsCalculator.swift in Sources */,
-				3316F47B2B2C2571005B271B /* ViewChinesePinYin.swift in Sources */,
-				3316F4462B2C2143005B271B /* testRealmServerApp.swift in Sources */,
+				3316F4AB2B2C46C6005B271B /* Task.swift in Sources */,
+				3316F4AC2B2C46C6005B271B /* RealmManager.swift in Sources */,
+				3316F4AA2B2C46C6005B271B /* Note.swift in Sources */,
+				3316F4B02B2C46C6005B271B /* NotesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +361,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -388,7 +392,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -402,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -420,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -451,7 +455,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -459,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
